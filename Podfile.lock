@@ -1,0 +1,24 @@
+PODS:
+  - REFormattedNumberField (1.1.6)
+  - RETableViewManager (1.7):
+    - REFormattedNumberField (~> 1.1.5)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
+
+DEPENDENCIES:
+  - RETableViewManager (~> 1.7)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - REFormattedNumberField
+    - RETableViewManager
+    - REValidation
+
+SPEC CHECKSUMS:
+  REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
+  RETableViewManager: 0f24d796c42c0890d38c79cc9aeb3871e186726e
+  REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
+
+PODFILE CHECKSUM: 799c205cfb4aa4d7cc712aba1fdaddc7371e3df1
+
+COCOAPODS: 1.5.3
