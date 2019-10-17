@@ -16,15 +16,17 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Atest"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short Atest."
+  spec.version      = "1.0.1"
+  spec.summary      = "这是一个简单的说明."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "车市打包"
+  spec.description  = <<-DESC
+                        这是一个copods测试
+                   DESC
 
   spec.homepage     = "https://github.com/liuzhiwu645/Atest"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -62,7 +64,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-# spec.platform     = :ios
+  # spec.platform     = :ios
    spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
@@ -78,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/liuzhiwu645/Atest.git", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/liuzhiwu645/Atest.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "RETableViewManagerTest/*.{h,m}"
+  spec.source_files  = "RETableViewManagerTest", "RETableViewManagerTest/RETableViewManagerTest/*.{h,m}"
 #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
