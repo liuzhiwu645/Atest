@@ -19,6 +19,7 @@
 		D54015B421D75DA7000B89C2 /* ItemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D54015B321D75DA7000B89C2 /* ItemTest.m */; };
 		D54015B721D75E04000B89C2 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = D54015B621D75E04000B89C2 /* Model.m */; };
 		D54015BA21D7669D000B89C2 /* TextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D54015B921D7669D000B89C2 /* TextTableViewCell.m */; };
+		D55AA632235808E9003EF190 /* Atest.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D55AA631235808E9003EF190 /* Atest.podspec */; };
 		D563B0B021FEB8860022BE25 /* YQXIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D563B0AE21FEB8860022BE25 /* YQXIBViewController.m */; };
 		D563B0B121FEB8860022BE25 /* YQXIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D563B0AF21FEB8860022BE25 /* YQXIBViewController.xib */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		D54015B621D75E04000B89C2 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		D54015B821D7669D000B89C2 /* TextTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextTableViewCell.h; sourceTree = "<group>"; };
 		D54015B921D7669D000B89C2 /* TextTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextTableViewCell.m; sourceTree = "<group>"; };
+		D55AA631235808E9003EF190 /* Atest.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Atest.podspec; sourceTree = "<group>"; };
 		D563B0AD21FEB8860022BE25 /* YQXIBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQXIBViewController.h; sourceTree = "<group>"; };
 		D563B0AE21FEB8860022BE25 /* YQXIBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQXIBViewController.m; sourceTree = "<group>"; };
 		D563B0AF21FEB8860022BE25 /* YQXIBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQXIBViewController.xib; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		D540157421D7561D000B89C2 = {
 			isa = PBXGroup;
 			children = (
+				D55AA631235808E9003EF190 /* Atest.podspec */,
 				D540157F21D7561D000B89C2 /* RETableViewManagerTest */,
 				D540159821D7561E000B89C2 /* RETableViewManagerTestTests */,
 				D54015A321D7561E000B89C2 /* RETableViewManagerTestUITests */,
@@ -286,6 +289,7 @@
 			files = (
 				D563B0B121FEB8860022BE25 /* YQXIBViewController.xib in Resources */,
 				D540158D21D7561E000B89C2 /* LaunchScreen.storyboard in Resources */,
+				D55AA632235808E9003EF190 /* Atest.podspec in Resources */,
 				D540158A21D7561E000B89C2 /* Assets.xcassets in Resources */,
 				D540158821D7561D000B89C2 /* Main.storyboard in Resources */,
 			);
@@ -314,20 +318,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RETableViewManagerTest/Pods-RETableViewManagerTest-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/RETableViewManager/RETableViewManager.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-RETableViewManagerTest/Pods-RETableViewManagerTest-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RETableViewManager.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-RETableViewManagerTest/Pods-RETableViewManagerTest-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RETableViewManagerTest/Pods-RETableViewManagerTest-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RETableViewManagerTest/Pods-RETableViewManagerTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3F66BA4F1CD5195CBCAC96B1 /* [CP] Check Pods Manifest.lock */ = {
